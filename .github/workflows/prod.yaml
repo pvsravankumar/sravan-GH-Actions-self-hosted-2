@@ -1,0 +1,12 @@
+name: GH-SELF-hosted-runner
+on:
+   push
+
+jobs: 
+  sravan-second-job: 
+   runs-on:  self-hosted
+
+   steps: 
+
+      - name: message
+        run: echo "sravan GHA self hosted"
